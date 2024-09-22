@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/CSS/style.css">
+    <title>TABELA BRASILEIRÃO</title>
+
+</head>
+<body>
+    <nav class="Navegação">
+        <a href="/index.html"></a>
+        <a href="/pages/tabelaBrasileirao.html"></a>
+    </nav>
+    <hr>
+    <div>
+        <img src="/assets/images/Brasileirão/baixados.png" alt="">
+        <h1>Tabela Brasileirão</h1>
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3" width="200px">Clube</th>
+                <th>Pts</th>
+                <th>PJ</th>
+                <th>VIT</th>
+                <th>E</th>
+                <th>D</th>
+                <th>GM</th>
+                <th>GC</th>
+                <th>SG</th>
+                <th>Ultimas 5</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>1</td>
+                <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/KLDWYp-H8CAOT9H_JgizRg_48x48.png" height="20px" alt=""></td>
+                <td>Botafogo</td>
+                <td>53</td>
+                <td>26</td>
+                <td>16</td>
+                <td>5</td>
+                <td>5</td>
+                <td>45</td>
+                <td>25</td>
+                <td>20</td>
+                <td>
+                    <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                    <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                    <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                    <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                    <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/7spurne-xDt2p6C0imYYNA_48x48.png" height="20px" alt=""></td>
+                    <td>Palmeras </td>
+                    <td>50</td>
+                    <td>26</td>
+                    <td>15</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>43</td>
+                    <td>19</td>
+                    <td>24</td>
+                    <td>
+                        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td>3</td>
+                    <td><img src="data:image/png;base64,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" height="20px" alt=""></td>
+                    <td>Fortaleza </td>
+                    <td>49</td>
+                    <td>26</td>
+                    <td>14</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>33</td>
+                    <td>25</td>
+                    <td>7</td>
+                    <td>
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td>4</td>
+                    <td><img src="data:image/png;base64,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" height="20px" alt=""></td>
+                    <td>Flamengo </td>
+                    <td>45</td>
+                    <td>25</td>
+                    <td>13</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>40</td>
+                    <td>29</td>
+                    <td>11</td>
+                    <td>
+                        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td>5</td>
+                    <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/4w2Z97Hf9CSOqICK3a8AxQ_48x48.png" height="20px" alt=""></td>
+                    <td>São Paulo </td>
+                    <td>44</td>
+                    <td>26</td>
+                    <td>13</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>34</td>
+                    <td>26</td>
+                    <td>8</td>
+                    <td>
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td>6</td>
+                    <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/nIdbR6qIUDyZUBO9vojSPw_48x48.png" height="20px" alt=""></td>
+                    <td>Bahia </td>
+                    <td>42</td>
+                    <td>26</td>
+                    <td>13</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>37</td>
+                    <td>24</td>
+                    <td>19</td>
+                    <td>
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td>7</td>
+                    <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/Tcv9X__nIh-6wFNJPMwIXQ_48x48.png" height="20px" alt=""></td>
+                    <td>Cruzeiro </td>
+                    <td>41</td>
+                    <td>26</td>
+                    <td>12</td>
+                    <td>5</td>
+                    <td>9</td>
+                    <td>34</td>
+                    <td>27</td>
+                    <td>7</td>
+                    <td>
+                        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td>8</td>
+                    <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_48x48.png" height="20px" alt=""></td>
+                    <td>Internacional </td>
+                    <td>38</td>
+                    <td>24</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>6</td>
+                    <td>37</td>
+                    <td>27</td>
+                    <td>7</td>
+                    <td>
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td>9</td>
+                    <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/hHwT8LwRmYCAGxQ-STLxYA_48x48.png" height="20px" alt=""></td>
+                    <td>Vasco da Gama </td>
+                    <td>35</td>
+                    <td>25</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>30</td>
+                    <td>35</td>
+                    <td>-5</td>
+                    <td>
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td>10</td>
+                    <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/q9fhEsgpuyRq58OgmSndcQ_48x48.png" height="20px" alt=""></td>
+                    <td>Atlético-MG </td>
+                    <td>33</td>
+                    <td>24</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>7</td>
+                    <td>33</td>
+                    <td>36</td>
+                    <td>-4</td>
+                    <td>
+                        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td>11</td>
+                    <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/JrXw-m4Dov0gE2Sh6XJQMQ_48x48.png" height="20px" alt=""></td>
+                    <td>Juventude </td>
+                    <td>32</td>
+                    <td>26</td>
+                    <td>8</td>
+                    <td>8</td>
+                    <td>10</td>
+                    <td>31</td>
+                    <td>36</td>
+                    <td>-5</td>
+                    <td>
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                    </td>
+                </tr>
+                <tr></tr>
+                    <td>12</td>
+                    <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/lMyw2zn1Z4cdkaxKJWnsQw_48x48.png" height="20px" alt=""></td>
+                    <td>Bragantino </td>
+                    <td>50</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>43</td>
+                    <td>24</td>
+                    <td>19</td>
+                    <td>
+                        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                    </td>
+                </tr>
+            </tr>
+            <tr></tr>
+                <td>13</td>
+                <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/9LkdBR4L5plovKM8eIy7nQ_48x48.png" height="20px" alt=""></td>
+                <td>Athletico-PR </td>
+                <td>30</td>
+                <td>24</td>
+                <td>6</td>
+                <td>8</td>
+                <td>10</td>
+                <td>27</td>
+                <td>29</td>
+                <td>-2</td>
+                <td>
+                    <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                    <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                    <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                    <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                    <img src="/assets/images/Brasileirão/empate.svg" alt="">
+                </td>
+            </tr>
+        </tr>
+        <tr></tr>
+            <td>14</td>
+            <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/Ku-73v_TW9kpex-IEGb0ZA_48x48.png" height="20px" alt=""></td>
+            <td>Grêmio </td>
+            <td>28</td>
+            <td>24</td>
+            <td>4</td>
+            <td>8</td>
+            <td>12</td>
+            <td>25</td>
+            <td>30</td>
+            <td>-5</td>
+            <td>
+                <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+                <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+                <img src="/assets/images/Brasileirão/empate.svg" alt="">
+            </td>
+        </tr>
+    </tr>
+    <tr></tr>
+        <td>15</td>
+        <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/u_L7Mkp33uNmFTv3uUlXeQ_48x48.png" height="20px" alt=""></td>
+        <td>Criciúma </td>
+        <td>28</td>
+        <td>25</td>
+        <td>7</td>
+        <td>7</td>
+        <td>11</td>
+        <td>32</td>
+        <td>40</td>
+        <td>-8</td>
+        <td>
+            <img src="/assets/images/Brasileirão/empate.svg" alt="">
+            <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+            <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+            <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+            <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+        </td>
+    </tr>
+</tr>
+<tr></tr>
+    <td>16</td>
+    <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/7spurne-xDt2p6C0imYYNA_48x48.png" height="20px" alt=""></td>
+    <td>Fluminense </td>
+    <td>50</td>
+    <td>25</td>
+    <td>15</td>
+    <td>5</td>
+    <td>5</td>
+    <td>43</td>
+    <td>24</td>
+    <td>19</td>
+    <td>
+        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+    </td>
+</tr>
+</tr>
+<tr></tr>
+    <td>17</td>
+    <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/LHSM6VchpkI4NIptoSTHOg_48x48.png" height="20px" alt=""></td>
+    <td>EC vitória </td>
+    <td>25</td>
+    <td>26</td>
+    <td>7</td>
+    <td>4</td>
+    <td>15</td>
+    <td>28</td>
+    <td>39</td>
+    <td>-11</td>
+    <td>
+        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+    </td>
+</tr>
+</tr>
+<tr></tr>
+    <td>18</td>
+    <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/tCMSqgXVHROpdCpQhzTo1g_48x48.png" height="20px" alt=""></td>
+    <td>Corinthias </td>
+    <td>25</td>
+    <td>26</td>
+    <td>5</td>
+    <td>10</td>
+    <td>11</td>
+    <td>23</td>
+    <td>33</td>
+    <td>-10</td>
+    <td>
+        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+    </td>
+</tr>
+<tr></tr>
+    <td>19</td>
+    <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/j6U8Rgt_6yyf0Egs9nREXw_48x48.png" height="20px" alt=""></td>
+    <td>Cuiabá </td>
+    <td>22</td>
+    <td>25</td>
+    <td>5</td>
+    <td>7</td>
+    <td>13</td>
+    <td>23</td>
+    <td>38</td>
+    <td>-15</td>
+    <td>
+        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+        <img src="/assets/images/Brasileirão/empate.svg" alt="">
+        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+    </td>
+</tr>
+<tr></tr>
+    <td>20</td>
+    <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/9mqMGndwoR9og_Z0uEl2kw_48x48.png" height="20px" alt=""></td>
+    <td>Atlético-GO </td>
+    <td>18</td>
+    <td>26</td>
+    <td>4</td>
+    <td>6</td>
+    <td>16</td>
+    <td>21</td>
+    <td>42</td>
+    <td>-21</td>
+    <td>
+        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+        <img src="/assets/images/Brasileirão/vitoria.svg" alt="">
+        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+        <img src="/assets/images/Brasileirão/derrota.svg" alt="">
+    </td>
+</tr>
+    
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
+   
+       
